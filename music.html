@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            width: 900px;
+            height: 500px;
+            border: 1px solid black;
+            background-color: rgb(204, 255, 204);
+        }
+        img{
+            width:150px;
+            position: relative;
+            top:350px;
+            right: 290px;
+            transition: all 3.5s;
+            animation-name: jessy6;
+            animation-duration: 3.5s;
+            animation-iteration-count:infinite;
+            animation-timing-function: ease;
+        }
+        .A {
+            padding-bottom: 40px;
+            width:40px;
+            border:  solid red;
+            background-color: red;
+            border-radius: 50%;
+            transition: all 1.3s;
+            animation-name: jessy;
+            animation-duration: 1.3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+         
+        }
+        .B {
+            padding-bottom: 40px;
+            width:40px;
+            border:  solid green;
+            background-color: green;
+            border-radius: 50%;
+            transition: all 1.4s;
+            animation-name: jessy2;
+            animation-duration: 1.4s;
+            animation-iteration-count: infinite;
+
+        }
+        .C {
+            padding-bottom: 40px;
+            width:40px;
+            border:  solid BLUE;
+            background-color: BLUE;
+            border-radius: 50%;
+            transition: all 1.5s;
+            animation-name: jessy3;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+
+        }
+        .D {
+            padding-bottom: 40px;
+            width:40px;
+            border:  solid yellowgreen;
+            background-color: yellowgreen;
+            border-radius: 50%;
+            transition: all 1.6s;
+            animation-name: jessy4;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: both;
+
+        }
+        .A ,.B , .C , .D {
+            margin-right: 20px;
+            display: inline-block;
+            position: relative;
+            top:140px;
+            left:50px;
+            bo
+        }
+        @keyframes jessy {
+            from{
+                transform:translateY(0vh);
+            }
+            to{
+                transform:translateY(10vh);
+            }
+            
+        }
+        @keyframes jessy2 {
+            from{
+                transform:translateY(0vh);
+            }
+            to{
+                transform:translateY(11vh);
+            }
+            
+        }
+        @keyframes jessy3 {
+            from{
+                transform:translateY(0vh);
+            }
+           
+            to{
+                transform:translateY(12vh);
+            }
+            
+        }
+        @keyframes jessy4 {
+            from{
+                transform:translateY(0vh);
+            }
+            to{
+                transform:translateY(13vh);
+            }
+            
+        }
+        @keyframes jessy6 {
+            from{
+                transform:translateX(0vh);
+            }
+            to{
+                transform:translateX(45vh);
+            }
+        }
+        @media screen and (max-width:320px) {
+        body{
+         width: 100%;
+            }
+        }
+        
+            </style>
+    </head>
+
+    <body>
+        <div class="container">
+        <div class="A"></div>
+        <div class="B"></div>
+        <div class="C"></div>
+        <div class="D"></div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUtFG9QRTZxCCsFemvkvrxkuNeWSTSkO7iMQ&s" alt="">
+    </div>
+    </body>
+    </html>
+      
